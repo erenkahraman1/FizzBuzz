@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #8bd3db;
+}
+input, button {
+    padding: 12px;
+    margin: 12px;
+    font-size: 1rem;
+}
+input[type="number"], input[type="color"], input[type="range"] {
+    width: 200px;
+}
+button {
+    cursor: pointer;
+    background-color: #eb1009;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #c3ef00;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 50px;
+    padding: 30px;
+}
+#container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+}
+#container div span {
+    font-size: 1.5em;
+}
+#container div p {
+    margin-top: 5px;
+    font-size: 1em;
+}
+#container div:hover {
+    transform: scale(1.5);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+.fizz {
+    background-color: #e21142;
+}
+.buzz {
+    background-color: #fa6e17;
+}
+.fizzbuzz {
+    background-color: #56f127;
+}
+.none {
+    background-color: #2084f6;
+}
+.color-container, .size-container {
+    margin-top: 50px;
+}
+.row {
+    margin: 10px;
+    padding: 10px;
+}
+#row1 {
+    background-color: #fef43d;
+}
+#row2 {
+    background-color: #dedede;
+}
+#row3 {
+    background-color: #4f52f1;
+}
+#row4 {
+    background-color: #60e574;
+}
+input[type="range"] {
+    width: 200px;
+}
+input[type="color"] {
+    width: 200px;
+}
+.buttons button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: #45a049;
+}

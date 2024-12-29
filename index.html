@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizz Buzz</title>
+    <link rel="stylesheet"  type='text/css' media='screen' href="styles/style.css">
+    <script src="scripts/script.js" defer></script>   
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+</head>
+<body>
+    <main>
+        <h1>Fizz Buzz</h1>
+        <div class="row" id="row1">
+            <label for="startValue">Minimum Number:</label>
+            <input type="number" id="startValue" value="1">
+            <label for="endValue">Maximum Number:</label>
+            <input type="number" id="endValue" value="100">
+            <label for="fizzValue">Fizz Value:</label>
+            <input type="number" id="fizzValue" value="3">
+            <label for="buzzValue">Buzz Value:</label>
+            <input type="number" id="buzzValue" value="5">
+        </div>
+        
+        <div class="row" id="row2">
+            <button id="generateDefault">REFRESH</button>
+            <button id="clearDivs">CLEAR</button>
+            <button id="generateCustom">CREATE</button>
+            <button id="fizzButton">Fizz</button>
+            <button id="buzzButton">Buzz</button>
+            <button id="fizzBuzzButton">FizzBuzz</button>
+            
+        </div>
+        
+        <div class="row" id="row3">
+            <label for="fizzColor">Fizz Color:</label>
+            <input type="color" id="fizzColor">
+            <label for="buzzColor">Buzz Color:</label>
+            <input type="color" id="buzzColor">
+            <label for="fizzBuzzColor">FizzBuzz Color:</label>
+            <input type="color" id="fizzBuzzColor">
+            <label for="noneColor">None Color:</label>
+            <input type="color" id="noneColor">
+        </div>
+        
+        <div class="row" id="row4">
+            <label for="divWidth">Width:</label>
+            <input type="range" id="divWidth" min="50" max="150" value="100">
+            <span id="widthOutput">100px</span>
+            
+            <label for="divHeight">Height:</label>
+            <input type="range" id="divHeight" min="50" max="150" value="100">
+            <span id="heightOutput">100px</span>
+        </div>
+
+        <div id="container"></div>
+    </main>
+     
+</body>
+</html>
